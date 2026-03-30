@@ -30,16 +30,16 @@ The application relies on a continuous data cycle between 3 components (Filters)
 
 ```text
 TP02-ALOG/
-├── bin/                       # Compiled files (.class)
-├── src/                       # Java source code
-│   ├── MainApp.java           # Thread assembly and startup
-│   └── pipeandfilter/         # Framework package
-│       ├── Pipe.java          # Abstract connector class
-│       ├── Filter.java        # Abstract runnable component class
-│       ├── BlockingQueue.java # Synchronized Pipe implementation
-│       ├── GuiFilter.java     # CMP1 (Swing UI)
-│       ├── CalculatorFilter.java # CMP2 (Arithmetic Logic)
-│       └── TraceFilter.java   # CMP3 (File Saving .txt)
-├── run.bat                    # Automation script for Windows
-├── trace.txt                  # Automatically generated log file
+├── bin/                                            # Compiled files (.class)
+├── src/                                            # Java source code
+│   ├── MainApp.java                                # Thread assembly and startup
+│   └── pipeandfilter/                              # Framework package
+│       ├── Pipe.java                               # Abstract connector class
+│       ├── Filter.java                             # Abstract runnable component class
+│       ├── BlockingQueue.java                      # Synchronized Pipe implementation
+│       ├── GuiFilter.java                          # CMP1 (Swing UI)
+│       ├── CalculatorFilter.java                   # CMP2 (Arithmetic Logic)
+│       └── TraceFilter.java                        # CMP3 (File Saving .txt)
+├── run.bat                                         # Automation script for Windows
+├── trace.txt                                       # Automatically generated log file
 └── README.md
